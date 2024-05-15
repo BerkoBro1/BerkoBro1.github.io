@@ -1,0 +1,29 @@
+h1 {
+    padding: 10px; 
+    border: 2px solid rgb(43, 135, 255); 
+    border-radius: 25px 50px; 
+    background: rgb(150, 195, 253);
+}
+
+.vert-btn-grp button {
+    max-width: fit-content;
+    margin-left: auto+1;
+    margin-right: auto;
+    background-color: rgb(150, 195, 253);
+    border: 1px solid rgb(43, 135, 255);
+    border-radius: 10px;
+    color: black;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 50%;
+    display: block; /* Make the buttons appear below each other */
+  }
+  
+  .vert-btn-grp button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .vert-btn-grp button:hover {
+    background-color: #7ce0ff;
+  }
