@@ -10,6 +10,7 @@ h1 {
 .main {
     padding: 1rem 2rem;
     text-align: center;
+    display:run-in;
 }
 
 .text {
@@ -54,4 +55,9 @@ h1 {
 .about-me {
   font-family: 'Comic Sans MS'; 
   font-weight:bold
+}
+
+.old {
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
 }
